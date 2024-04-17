@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+    <file>
+        <body>
+            <trans-unit id="tl_plenta_jobs_basic_offer.hideInList.0">
+                <target>In Listen verstecken</target>
+            </trans-unit>
+            <trans-unit id="tl_plenta_jobs_basic_offer.hideInList.1">
+                <target>Die Stelle ist weiterhin über die Detailseite und XML-Sitemap erreichbar.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

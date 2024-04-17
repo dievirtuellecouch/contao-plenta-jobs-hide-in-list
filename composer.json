@@ -1,0 +1,27 @@
+{
+    "name": "dvc/contao-plenta-jobs-hide-in-list",
+    "description": "Allows to hide job postings in Plenta Jobs list views via checkbox.",
+    "type": "contao-bundle",
+    "version": "1.0.1",
+    "require": {
+        "contao/core-bundle": "^4.13"
+    },
+    "conflict": {
+        "plenta/contao-jobs-basic-bundle": "<2.0 || >=3.0"
+    },
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Jonathan Hermann",
+            "email": "jh@d-v-c.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DVC\\PlentaJobsHideInList\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "DVC\\PlentaJobsHideInList\\ContaoManager\\Plugin"
+    }
+}
